@@ -231,6 +231,7 @@ main {
   color: #9575cd !important;
 }
 .indigo-link-context a {
+  display: inline-block;
   color: #3f51b5 !important;
 }
 .indigo-link-context a:hover {
@@ -320,6 +321,13 @@ main {
 .blue-grey-link-context a:hover {
   color: #90a4ae !important;
 }
+.black-link-context a {
+  display: inline-block;
+  color: #000 !important;
+}
+.black-link-context a:hover {
+  color: #696969 !important;
+}
 .nav-wrapper {
   padding: 0 25px;
 }
@@ -351,12 +359,12 @@ article .entry {
   margin-top: 20px;
 }
 article .article-title h1 {
-  font-family: "微软雅黑", "sans-serif", "Helvetica Neue";
-  font-size: 2em;
+  font-family: "宋体", "sans-serif", "Helvetica Neue";
+  font-size: 1em;
   font-weight: bold;
   line-height: 1.4;
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 1px;
   color: #333;
 }
 article a:not(.chip) {
