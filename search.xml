@@ -3,6 +3,21 @@
   
     
     <entry>
+      <title>hexo新建tags和categories页面</title>
+      <link href="/2018/09/21/hexo%E6%96%B0%E5%BB%BAtags%E5%92%8Ccategories%E9%A1%B5%E9%9D%A2/"/>
+      <url>/2018/09/21/hexo%E6%96%B0%E5%BB%BAtags%E5%92%8Ccategories%E9%A1%B5%E9%9D%A2/</url>
+      <content type="html"><![CDATA[<h2 id="方法一："><a href="#方法一：" class="headerlink" title="方法一："></a>方法一：</h2><p>scaffolds/draft.md<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: &#123;&#123; title &#125;&#125;</span><br><span class="line">tags: &#123;&#123; tags &#125;&#125;</span><br><span class="line">---</span><br></pre></td></tr></table></figure></p><p>scaffolds/post.md<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: &#123;&#123; title &#125;&#125;</span><br><span class="line">date: &#123;&#123; date &#125;&#125;</span><br><span class="line">tags: &#123;&#123; tags &#125;&#125;</span><br><span class="line">---</span><br></pre></td></tr></table></figure></p><h2 id="方法二："><a href="#方法二：" class="headerlink" title="方法二："></a>方法二：</h2><p>默认是没有 categories 和 tags 的需要<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">hexo new page <span class="string">"tags"</span> </span><br><span class="line"></span><br><span class="line">hexo new page <span class="string">"categories"</span></span><br></pre></td></tr></table></figure></p><p>编辑 /tags/index.md /categories/index.md<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">type</span>: <span class="string">"tags"</span></span><br><span class="line">layout: <span class="string">"tags"</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="built_in">type</span>: <span class="string">"categories"</span></span><br><span class="line">layout: <span class="string">"categories"</span></span><br></pre></td></tr></table></figure></p>]]></content>
+      
+      
+        <tags>
+            
+            <tag> 技术 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>文章</title>
       <link href="/2018/09/05/%E6%96%87%E7%AB%A0/"/>
       <url>/2018/09/05/%E6%96%87%E7%AB%A0/</url>
@@ -38,16 +53,16 @@
   
     
     <entry>
-      <title>关于</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
-      <content type="html"><![CDATA[<p>大家好，我是XXX。欢迎来到我的个人技术博客。</p><p>这里用markdown写下你的简介，就跟平时写md一样就可以了。</p>]]></content>
+      <title>categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      <content type="html"><![CDATA[]]></content>
     </entry>
     
     <entry>
-      <title>读书</title>
-      <link href="/reading/index.html"/>
-      <url>/reading/index.html</url>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       <content type="html"><![CDATA[]]></content>
     </entry>
     

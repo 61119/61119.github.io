@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
-  <updated>2018-09-14T09:01:12.655Z</updated>
-  <id>http://yoursite.com/</id>
+  <link href="http://www.asdf118168.com/"/>
+  <updated>2018-09-21T06:59:55.209Z</updated>
+  <id>http://www.asdf118168.com/</id>
   
   <author>
     <name>John Doe</name>
@@ -17,9 +17,32 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>hexo新建tags和categories页面</title>
+    <link href="http://www.asdf118168.com/2018/09/21/hexo%E6%96%B0%E5%BB%BAtags%E5%92%8Ccategories%E9%A1%B5%E9%9D%A2/"/>
+    <id>http://www.asdf118168.com/2018/09/21/hexo新建tags和categories页面/</id>
+    <published>2018-09-21T06:39:53.000Z</published>
+    <updated>2018-09-21T06:59:55.209Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="方法一："><a href="#方法一：" class="headerlink" title="方法一："></a>方法一：</h2><p>scaffolds/draft.md<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: &#123;&#123; title &#125;&#125;</span><br><span class="line">tags: &#123;&#123; tags &#125;&#125;</span><br><span class="line">---</span><br></pre></td></tr></table></figure></p><p>scaffolds/post.md<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: &#123;&#123; title &#125;&#125;</span><br><span class="line">date: &#123;&#123; date &#125;&#125;</span><br><span class="line">tags: &#123;&#123; tags &#125;&#125;</span><br><span class="line">---</span><br></pre></td></tr></table></figure></p><h2 id="方法二："><a href="#方法二：" class="headerlink" title="方法二："></a>方法二：</h2><p>默认是没有 categories 和 tags 的需要<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">hexo new page <span class="string">"tags"</span> </span><br><span class="line"></span><br><span class="line">hexo new page <span class="string">"categories"</span></span><br></pre></td></tr></table></figure></p><p>编辑 /tags/index.md /categories/index.md<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">type</span>: <span class="string">"tags"</span></span><br><span class="line">layout: <span class="string">"tags"</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="built_in">type</span>: <span class="string">"categories"</span></span><br><span class="line">layout: <span class="string">"categories"</span></span><br></pre></td></tr></table></figure></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;方法一：&quot;&gt;&lt;a href=&quot;#方法一：&quot; class=&quot;headerlink&quot; title=&quot;方法一：&quot;&gt;&lt;/a&gt;方法一：&lt;/h2&gt;&lt;p&gt;scaffolds/draft.md&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;t
+      
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="http://www.asdf118168.com/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
     <title>文章</title>
-    <link href="http://yoursite.com/2018/09/05/%E6%96%87%E7%AB%A0/"/>
-    <id>http://yoursite.com/2018/09/05/文章/</id>
+    <link href="http://www.asdf118168.com/2018/09/05/%E6%96%87%E7%AB%A0/"/>
+    <id>http://www.asdf118168.com/2018/09/05/文章/</id>
     <published>2018-09-05T08:57:22.000Z</published>
     <updated>2018-09-14T09:01:12.655Z</updated>
     
@@ -27,19 +50,19 @@
     
     </summary>
     
-      <category term="测试" scheme="http://yoursite.com/categories/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="http://www.asdf118168.com/categories/%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="测试1" scheme="http://yoursite.com/categories/%E6%B5%8B%E8%AF%95/%E6%B5%8B%E8%AF%951/"/>
+      <category term="测试1" scheme="http://www.asdf118168.com/categories/%E6%B5%8B%E8%AF%95/%E6%B5%8B%E8%AF%951/"/>
     
     
-      <category term="aaa" scheme="http://yoursite.com/tags/aaa/"/>
+      <category term="aaa" scheme="http://www.asdf118168.com/tags/aaa/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2018/09/05/hello-world/"/>
-    <id>http://yoursite.com/2018/09/05/hello-world/</id>
+    <link href="http://www.asdf118168.com/2018/09/05/hello-world/"/>
+    <id>http://www.asdf118168.com/2018/09/05/hello-world/</id>
     <published>2018-09-05T07:15:52.180Z</published>
     <updated>2018-09-05T07:15:52.180Z</updated>
     
