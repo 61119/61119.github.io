@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.asdf118168.com/"/>
-  <updated>2018-09-21T06:59:55.209Z</updated>
+  <updated>2018-09-21T09:16:54.952Z</updated>
   <id>http://www.asdf118168.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>图片测试</title>
+    <link href="http://www.asdf118168.com/2018/09/21/%E5%9B%BE%E7%89%87%E6%B5%8B%E8%AF%95/"/>
+    <id>http://www.asdf118168.com/2018/09/21/图片测试/</id>
+    <published>2018-09-21T09:14:22.000Z</published>
+    <updated>2018-09-21T09:16:54.952Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://wx3.sinaimg.cn/mw690/4a8a76b5gy1fvh90dl4s4j20pk148794.jpg" alt="图片名称"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;https://wx3.sinaimg.cn/mw690/4a8a76b5gy1fvh90dl4s4j20pk148794.jpg&quot; alt=&quot;图片名称&quot;&gt;&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>hexo新建tags和categories页面</title>

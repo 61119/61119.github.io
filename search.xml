@@ -3,6 +3,15 @@
   
     
     <entry>
+      <title>图片测试</title>
+      <link href="/2018/09/21/%E5%9B%BE%E7%89%87%E6%B5%8B%E8%AF%95/"/>
+      <url>/2018/09/21/%E5%9B%BE%E7%89%87%E6%B5%8B%E8%AF%95/</url>
+      <content type="html"><![CDATA[<p><img src="https://wx3.sinaimg.cn/mw690/4a8a76b5gy1fvh90dl4s4j20pk148794.jpg" alt="图片名称"></p>]]></content>
+      
+      
+    </entry>
+    
+    <entry>
       <title>hexo新建tags和categories页面</title>
       <link href="/2018/09/21/hexo%E6%96%B0%E5%BB%BAtags%E5%92%8Ccategories%E9%A1%B5%E9%9D%A2/"/>
       <url>/2018/09/21/hexo%E6%96%B0%E5%BB%BAtags%E5%92%8Ccategories%E9%A1%B5%E9%9D%A2/</url>
@@ -56,6 +65,20 @@
       <title>categories</title>
       <link href="/categories/index.html"/>
       <url>/categories/index.html</url>
+      <content type="html"><![CDATA[]]></content>
+    </entry>
+    
+    <entry>
+      <title>schedule</title>
+      <link href="/schedule/index.html"/>
+      <url>/schedule/index.html</url>
+      <content type="html"><![CDATA[]]></content>
+    </entry>
+    
+    <entry>
+      <title>about</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
       <content type="html"><![CDATA[]]></content>
     </entry>
     
